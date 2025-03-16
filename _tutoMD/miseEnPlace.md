@@ -9,6 +9,13 @@ module.exports = {
 }
 ```
 
+#### 00 tailwind.css
+```css
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities;
+```
+
 #### 1 baseof.html
 ```html
 <!DOCTYPE html >
@@ -20,6 +27,7 @@ module.exports = {
 </body>
 </html>
 ```
+
 #### 2 index.md 
 ```markdown
 # Lorem Ipsum
@@ -62,6 +70,7 @@ Cras condimentum ullamcorper nibh quis elementum. Etiam id lectus nisl. Praesent
   </body>
 </html>
 ```
+
 #### 6 tailwind.config.js
 ```js
 /** @type {import('tailwindcss').Config} */
