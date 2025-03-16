@@ -22,7 +22,7 @@ title = ''
 ```
 
 #### 2 shortcodes/srcsetInAssets.html
-̀```html
+```html
 <!-- Traitement d'une image qui est dans assets/images  -->
 <!-- voir https://mijndertstuij.nl/posts/hugo-responsive-images/ -->
 <!-- Voir https://www.brycewray.com/posts/2022/06/responsive-optimized-images-hugo/ -->
