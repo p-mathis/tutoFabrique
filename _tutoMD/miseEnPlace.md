@@ -1,3 +1,14 @@
+#### 0 tailwind.config.js
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./content/**/*.md", "./content/**/*.html", "./layouts/**/*.html"],
+  
+  theme: {},
+  plugins: [],
+}
+```
+
 #### 1 baseof.html
 ```html
 <!DOCTYPE html >
