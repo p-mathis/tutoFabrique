@@ -76,26 +76,27 @@ Cras condimentum ullamcorper nibh quis elementum. Etiam id lectus nisl. Praesent
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./content/**/*.md", "./content/**/*.html", "./layouts/**/*.html"],
-  
   theme: {
-    colors: {
-      mycolor: {
-        50: '#F9FAFB',
-        100: '#F3F4F6',
-        200: '#E5E7EB',
-        300: '#D1D5DB',
-        400: '#9CA3AF',
-        500: '#6B7280',
-        600: '#4B5563',
-        700: '#374151',
-        800: '#1F2937',
-        900: '#111827',
+    extend: {
+      colors: {
+        mycolor: {
+          50: '#F9FAFB',
+          100: '#F3F4F6',
+          200: '#E5E7EB',
+          300: '#D1D5DB',
+          400: '#9CA3AF',
+          500: '#6B7280',
+          600: '#4B5563',
+          700: '#374151',
+          800: '#1F2937',
+          900: '#111827',
 
-      DEFAULT: '#1F2937',
-      },
-      myblack: '#111827',
-      mywhite: '#ffffff',
-    }, 
+        DEFAULT: '#1F2937',
+        },
+        myblack: '#111827',
+        mywhite: '#ffffff',
+      }, 
+    },
   },
   plugins: [],
 }
@@ -110,7 +111,7 @@ module.exports = {
 
   /* le body */
   body {
-    @apply bg-mycolor-200 container mx-auto text-mycolor-700 px-1 md:px-2;
+    @apply bg-mycolor-200 text-mycolor-700 px-1 md:px-2;
   }
 
   /* les titres */
@@ -121,6 +122,7 @@ module.exports = {
     @apply xl:text-5xl xl:py-20;   
     @apply 2xl:text-6xl 2xl:py-24;  
   }
+  
   h2 {
     @apply text-2xl font-medium pt-3 pb-1.5;
   }
