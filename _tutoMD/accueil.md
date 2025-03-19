@@ -125,3 +125,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec velit a ante 
 Ut a lacinia diam, pellentesque dictum lorem. Nam tristique sit amet nunc nec ornare. Nulla tellus lacus, varius in massa eu, vestibulum ultricies est. Nulla sit amet leo odio. Pellentesque vestibulum libero sit amet fermentum condimentum. Nulla maximus dui ut mauris viverra, sit amet imperdiet arcu sagittis. Ut nec orci eros. Ut auctor dapibus ex in hendrerit.
 {{< /text/darkViaLight >}}
 ```
+#### 5 single.html
+```html
+{{ define "main" }}
+  <main aria-role="main">
+    {{ if .Page.Title }}<h1 class="uppercase text-center pt-8 pb-10 lg:pt-20 lg:pb-24 bg-mycolor-600 text-mywhite">{{ .Page.Title }}</h1>
+    {{ end }}
+    {{ .Content }}
+  </main>
+{{ end }}
+```
