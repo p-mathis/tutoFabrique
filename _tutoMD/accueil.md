@@ -135,3 +135,68 @@ Ut a lacinia diam, pellentesque dictum lorem. Nam tristique sit amet nunc nec or
   </main>
 {{ end }}
 ```
+
+#### 6 histoire/index.md
+```markdown
++++
+date = '2025-03-18T23:26:01+01:00'
+draft = false
+title = 'Notre Histoire !'
++++
+
+{{< typo/spaceLine >}}
+{{< text/lightViaDark >}}
+## Une belle histoire !
+Une quincaillerie au long passé, qui vous propose :
+- des clous
+- des vis
+- de la peinture
+{{< /text/lightViaDark >}}
+{{< typo/spaceLine >}}
+
+{{< images/srcsetInPage src="histoire-quincaillerie.jpg" alt="l'intérieur d'une quincaillerie" >}}
+```
+
+#### 7 tailwind.css liste et ancre
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /* le body */
+  body {
+    @apply bg-mycolor-200 text-mycolor-700 px-1 md:px-2;
+  }
+
+  /* les titres */
+  h1 {
+    @apply text-2xl  font-semibold py-2 ;  
+    @apply md:text-3xl md:py-6;    
+    @apply lg:text-4xl lg:py-12;   
+    @apply xl:text-5xl xl:py-20;   
+    @apply 2xl:text-6xl 2xl:py-24;  
+  }
+  
+  h2 {
+    @apply text-2xl font-medium pt-3 pb-1.5;
+  }
+  h3 {
+    @apply text-xl font-medium py-1.5;
+  }
+  h4 {
+    @apply text-base font-medium italic py-1.5;
+  }
+  /* les puces */
+  ul {
+    @apply list-inside list-disc;
+  }
+  
+  /* les ancres souligner */
+  a {
+    @apply underline;
+    }
+    
+}
+```
