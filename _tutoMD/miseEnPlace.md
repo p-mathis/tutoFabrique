@@ -96,6 +96,7 @@ module.exports = {
         },
         myblack: '#111827',
         mywhite: '#ffffff',
+        myred: '#ff2222',
       }, 
     },
   },
