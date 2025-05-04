@@ -113,10 +113,7 @@ keywords = []
 {{ end }}
 ```
 
-
-
 #### 4 produits/single.html AVEC encart
-
 ```html
 {{ define "main" }}
   <main aria-role="main">
