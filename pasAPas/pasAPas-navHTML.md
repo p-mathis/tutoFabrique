@@ -144,10 +144,10 @@ Mais :
 &nbsp;&nbsp;&nbsp;&nbsp;- on aimerait que le texte soit en gras
 
 Au niveau de la classe de `nav-md` on va donc ajouter les propriétés suivantes :
-&nbsp;&nbsp;&nbsp;&nbsp;- `space-x-12` pour écarter les éléments les uns des autres
-&nbsp;&nbsp;&nbsp;&nbsp;- `list-none` pour éliminer les puces
-&nbsp;&nbsp;&nbsp;&nbsp;- `text-xl` pour la taille du texte
-&nbsp;&nbsp;&nbsp;&nbsp;- `font-bold` pour un texte gras
+&nbsp;&nbsp;&nbsp;&nbsp;- `space-x-12` pour écarter les éléments les uns des autres  
+&nbsp;&nbsp;&nbsp;&nbsp;- `list-none` pour éliminer les puces  
+&nbsp;&nbsp;&nbsp;&nbsp;- `text-xl` pour la taille du texte  
+&nbsp;&nbsp;&nbsp;&nbsp;- `font-bold` pour un texte gras  
 La classe de `nav-md` devient donc :
 ```html
 class="hidden md:flex bg-mycolor-300 space-x-12 list-none text-xl font-bold"
