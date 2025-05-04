@@ -85,7 +85,7 @@ title = 'Ma Fabrique'
   </ul>
 </nav>
 ```
-#### 5 partials/head.html Ajout d'alpine.js
+#### 5 partials/head.html Ajout alpine.js
 ```html
 <head>    
     <meta charset="utf-8">
