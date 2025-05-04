@@ -559,9 +559,11 @@ On applique la même procédure que pour le menu déroulant vu plus haut. On don
 - Au niveau de la balise *nav-sm* : insérer le *x-data* -> `x-data="{ openSM: false }"`  
 - Au niveau de la balise *svg-ham* : insérer le *click* -> `@click="openSM = !openSM"`  
 - Au niveau de la balise *ul-sm-parent* : insérer le *x-show* : -> `x-show="openSM"`  
+
 Au niveau du *svg-ham* :  
 &nbsp;&nbsp;&nbsp;&nbsp;- *svg-sandwich* doit être visible lorsque le menu est fermé : *svg-sandwich* -> `x-show="!openSM"`  
 &nbsp;&nbsp;&nbsp;&nbsp;- *svg-croix* visible lorsque le menu est ouvert : *svg-croix* -> `x-show="openSM"`  
+
 On souhaite modifier la couleur des deux *path* :     
 &nbsp;&nbsp;&nbsp;&nbsp;- *svg-sandwich* mycolor-500 : *svg-sandwich* -> `class="fill-mycolor-500"`  
 &nbsp;&nbsp;&nbsp;&nbsp;- *svg-croix* myred : *svg-croix* -> `class="fill-myred"`  
@@ -648,7 +650,7 @@ On crée une nouvelle variable *javascript* qu'on appelle *openChild*. Effective
 - Au niveau de la balise *svg-sm-child* : insérer le *click* -> `@click="openChild = !openChild"`  
 - Au niveau de la balise *ul-sm-child* : insérer le *x-show* : -> `x-show="openChild"`
 ##### Changer le sens du *svg* lors du clic
-Pour modifier l'aspect du *svg-sm-child" selon que la "ul-sm-child" est ouverte ou non, on ajoute au *svg* la directive : -> `x-bind:class="{'rotate-180': openChild, 'rotate-0': !openChild}"`
+Pour modifier l'aspect du *svg-sm-child* selon que la *ul-sm-child* est ouverte ou non, on ajoute au *svg* la directive : -> `x-bind:class="{'rotate-180': openChild, 'rotate-0': !openChild}"`
 
 ##### Fermer la liste *enfant* au *mouseleave*
 On utilise le même type de code que pour le menu *nav-md* au niveau de *ul-sm-child* :
