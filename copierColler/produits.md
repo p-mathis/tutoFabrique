@@ -113,7 +113,9 @@ keywords = []
 {{ end }}
 ```
 
+
 #### 4 produits/single.html AVEC encart
+
 
 ```html
 {{ define "main" }}
