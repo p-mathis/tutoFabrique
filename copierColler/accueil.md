@@ -136,7 +136,7 @@ Ut a lacinia diam, pellentesque dictum lorem. Nam tristique sit amet nunc nec or
 {{ end }}
 ```
 
-#### 6 histoire/index.md
+#### 6 histoire/index.md
 
 ```markdown
 +++
