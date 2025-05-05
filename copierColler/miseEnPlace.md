@@ -54,7 +54,7 @@ Cras condimentum ullamcorper nibh quis elementum. Etiam id lectus nisl. Praesent
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>{{ if .Page.Title}}{{ .Page.Title }}{{else}}{{ .Site.Title}}{{end}}</title>
 
-    <link rel="stylesheet" href="{{ .Site.BaseURL}}/css/main.css">    
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/main.css">    
   </head>
 ```
 
@@ -63,7 +63,7 @@ Cras condimentum ullamcorper nibh quis elementum. Etiam id lectus nisl. Praesent
 <!DOCTYPE html>
 <html lang="{{.Site.LanguageCode}}">
   {{ block "head" .}} 
-  {{ partial "head.html" .}}
+    {{ partial "head.html" .}}
   {{ end }}
   <body>
     {{ block "main" . }}
