@@ -29,7 +29,7 @@ module.exports = {
 </html>
 ```
 
-#### 2 index.md 
+#### 2 _index.md 
 ```markdown
 # Lorem Ipsum
 ## Paragraphe 1
