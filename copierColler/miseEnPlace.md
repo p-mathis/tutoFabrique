@@ -17,6 +17,11 @@ module.exports = {
 @tailwind utilities;
 ```
 
+#### 000 commande npx
+```bash
+npx tailwindcss -i ./static/css/tailwind.css -o ./static/css/main.css –watch
+```
+
 #### 1 baseof.html
 ```html
 <!DOCTYPE html >
